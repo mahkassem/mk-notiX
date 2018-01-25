@@ -37,7 +37,8 @@
     <td>Milliseconds (1000 = 1 Second)</td>
   </tr>
 </table>
-2. Trigger function: alertX(message)<table>
+2. Trigger function: alertX(message)
+<table>
   <tr>
     <th>Option</th>
     <th>Description</th>
