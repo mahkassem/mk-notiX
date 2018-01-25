@@ -154,7 +154,7 @@ function confirmX(message, url, ok, cancel) {
     $('.cBlocker').fadeIn(500);
 }
 
-function functionX(message, func, ok, cancel) {
+function functionX(message, callback, ok, cancel) {
     var cHolder = document.createElement('div');
     cName = makeid();
     cHolder.id = cName;
@@ -165,7 +165,7 @@ function functionX(message, func, ok, cancel) {
     var cOk = document.createElement('a');
     cOk.className = "cOk";
     cOk.innerHTML = ok;
-    $(cOk).attr('onclick', func);
+    $(cOk).attr('onclick', callback);
     $(cOk).on('click', function() {
         $(this).closest('.cHolder').fadeOut(500);
         $('.cBlocker').fadeOut(500);
@@ -184,51 +184,4 @@ function functionX(message, func, ok, cancel) {
     target.appendChild(cOk);
     $(target).fadeIn(500);
     $('.cBlocker').fadeIn(500);
-}
-
-function toDiv(id, speed, alarm) {
-    $('html, body').animate({
-        scrollTop: $("#" + id).offset().top
-    }, speed);
-    if (alarm == 0) {} else {
-        $("#" + id).css({
-            'transition': '0.3s'
-        });
-        setTimeout(function() {
-            $("#" + id).css({
-                'box-shadow': '0px 0px 250px 0px rgba(255,0,0,0.2)'
-                , 'color': 'red'
-            })
-        }, speed);
-        setTimeout(function() {
-            $("#" + id).css({
-                'box-shadow': '0px 0px 0px 0px rgba(255,0,0,0.2)'
-                , 'color': '#666'
-            })
-        }, speed * 1.5);
-        setTimeout(function() {
-            $("#" + id).css({
-                'box-shadow': '0px 0px 250px 0px rgba(255,0,0,0.2)'
-                , 'color': 'red'
-            })
-        }, speed * 2);
-        setTimeout(function() {
-            $("#" + id).css({
-                'box-shadow': '0px 0px 0px 0px rgba(255,0,0,0.2)'
-                , 'color': '#666'
-            })
-        }, speed * 2.5);
-        setTimeout(function() {
-            $("#" + id).css({
-                'box-shadow': '0px 0px 250px 0px rgba(255,0,0,0.2)'
-                , 'color': 'red'
-            })
-        }, speed * 3);
-        setTimeout(function() {
-            $("#" + id).css({
-                'box-shadow': '0px 0px 0px 0px rgba(255,0,0,0.2)'
-                , 'color': '#666'
-            })
-        }, speed * 3.5);
-    }
 }
