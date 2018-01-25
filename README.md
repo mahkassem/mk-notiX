@@ -1,7 +1,9 @@
 # mk-notiX 2
 <h2>JQuery Plugin for create easy to use notifications.</h2>
 
-<p style="text-align: left;">NotiX v.2.0 JQuery Plug-in - 27/04/2016
+NotiX v.2.0 JQuery Plug-in 
+-v1.0 27/04/2016
+-v2.0 25/1/2018
 
 <h3>Create a cool notification for jQuery, simple to use.</h3>
 
