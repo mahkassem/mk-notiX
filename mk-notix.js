@@ -165,10 +165,10 @@ function functionX(message, callback, ok, cancel) {
     var cOk = document.createElement('a');
     cOk.className = "cOk";
     cOk.innerHTML = ok;
-    $(cOk).attr('onclick', setTimeout(callback,1000));
     $(cOk).on('click', function() {
         $(this).closest('.cHolder').fadeOut(500);
         $('.cBlocker').fadeOut(500);
+        setTimeout(callback,1000)
     })
     var cNo = document.createElement('a');
     cNo.className = "cNo";
