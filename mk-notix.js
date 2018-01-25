@@ -14,7 +14,7 @@ $(function() {
     var nStyle = document.createElement('style');
     nStyle.type = 'text/css';
     document.getElementsByTagName('head')[0].appendChild(nStyle);
-    nStyle.innerHTML = '.notificationsx{z-index: 10001;position: absolute;height:auto;width:360px;max-width:100vw;left:0.41em;top:0;}' +
+    nStyle.innerHTML = '.notificationsx{"Tahoma",font-family:sans-serif;z-index: 10001;position: absolute;height:auto;width:360px;max-width:100vw;left:0.41em;top:0;}' +
         '.rnHolder{position: relative;width: 100%;font-size:15px;text-align: center;background-color: #fff;margin-top:0.41em;padding: 0.1em;border: 1px #e7e7e7 solid;box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);display: none;}' +
         '.rnHolder a{position: absolute;right: 0.4em;top: 0;color: #999;font-size:15px;cursor: pointer;transition: 0.5s}' +
         '.rnHolder a:hover{color: #333}' +
