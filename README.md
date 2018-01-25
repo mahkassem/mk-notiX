@@ -37,6 +37,7 @@
     <td>Milliseconds (1000 = 1 Second)</td>
   </tr>
 </table>
+
 2. Trigger function: alertX(message)
 <table>
   <tr>
@@ -50,6 +51,7 @@
     <td>Text/HTML</td>
   </tr>
 </table>
+
 3. Trigger function: informX(message)
 <table>
   <tr>
@@ -63,6 +65,7 @@
     <td>Text/HTML</td>
   </tr>
 </table>
+
 4. Trigger function: confirmX(message, url, ok, cancel)
 <table>
   <tr>
@@ -91,6 +94,7 @@
     <td>Text/HTML</td>
   </tr>
 </table>
+
 5. Trigger function: functionX(message, callback, ok, cancel)
 <table>
   <tr>
