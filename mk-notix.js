@@ -165,7 +165,7 @@ function functionX(message, callback, ok, cancel) {
     var cOk = document.createElement('a');
     cOk.className = "cOk";
     cOk.innerHTML = ok;
-    $(cOk).attr('onclick', callback);
+    $(cOk).attr('onclick', setTimeout(callback,2000));
     $(cOk).on('click', function() {
         $(this).closest('.cHolder').fadeOut(500);
         $('.cBlocker').fadeOut(500);
