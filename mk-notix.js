@@ -1,5 +1,5 @@
 /*
-NotiX v.1.0 JQuery Plug-in - 27/04/2016
+NotiX v.2.0 JQuery Plug-in - V.1.0 27/04/2016 v 2.0 25/01/2018
 Create a cool notification for jQuery, simple to use.
 How to use: simply find example below:
 1. include .js to your header
