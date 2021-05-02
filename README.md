@@ -127,5 +127,4 @@ NotiX v.2.0 JQuery Plug-in
 </table>
 
 <b>Created by:</b> Mahmoud Kassem<br>
-<b>Email:</b> <a href="mailto:mahmoud.ali.kassem@gmail.com">mahmoud.ali.kassem@gmail.com</a><br>
-<a href="https://makdev.net">makdev.net</a> - <a href="http://www.zbony.com">www.zbony.com</a>
+<b>Email:</b> <a href="mailto:mahmoud.ali.kassem@gmail.com">mahmoud.ali.kassem@gmail.com</a>
