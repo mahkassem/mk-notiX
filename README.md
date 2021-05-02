@@ -5,6 +5,9 @@ NotiX v.2.0 JQuery Plug-in
 - v1.0 27/04/2016
 - v2.0 25/1/2018
 
+<h3>New Better Version</h3>
+https://mahkassem.github.io/mk-web-notifications/
+
 <h3>Create a cool notification for jQuery, simple to use.</h3>
 
 
